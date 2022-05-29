@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles/global/app.scss";
+
+import AnotherCssCard from "./components/css/AnotherCssCard.js";
+import AnotherCssModuleCard from "./components/css_modules/AnotherCssModuleCard";
+import CssCard from "./components/css/CssCard.js";
+import CssModuleCard from "./components/css_modules/CssModuleCard";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <CssCard />
+      <AnotherCssCard />
+      <CssModuleCard />
+      <AnotherCssModuleCard />
+    </>
   );
 }
 

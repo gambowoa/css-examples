@@ -1,0 +1,14 @@
+.card {
+  background: pink;
+  border-radius: 8px;
+  color: indianred;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: bold;
+}

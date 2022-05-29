@@ -1,0 +1,14 @@
+.card {
+  background: lightblue;
+  border-radius: 8px;
+  color: blue;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: bold;
+}
